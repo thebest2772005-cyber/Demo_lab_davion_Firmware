@@ -1,0 +1,77 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lab/amr_ws/build/lab_bot
+-- Install configuration: ""
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/cmd_vel_sender.launch.py
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/odom_publisher.py
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/nav_rl.launch.py
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/slam_rl.launch.py
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/slam.launch.py
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/Lidar.launch.py
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/bringup.launch.py
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/mapping.launch.py
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/odom_receive.py
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/slam_localization_params.yaml
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/slam_rl_params.yaml
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/rplidar.yaml
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/slam_params_rl.yaml
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/slam_toolbox.yaml
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/nav_rl_params.yaml
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/lab_params.yaml
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/maps
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/maps/lab_map.pgm
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/maps/lab_office_map.posegraph
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/maps/lab_map.yaml
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/maps/lab_map.data
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/maps/lab_office_map.data
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/maps/lab_office_map.yaml
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/maps/lab_map.posegraph
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/base.urdf.xacro
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/materials.urdf.xacro
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/lab_robot.urdf.xacro
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/gazebo.urdf.xacro
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/lab_bot.urdf.xacro
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/wheels.urdf.xacro
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/macros.urdf.xacro
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/properties.urdf.xacro
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/sensors.urdf.xacro
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/my_worlds
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/my_worlds/models
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/my_worlds/worlds
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/my_worlds/worlds/lab_office.world
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/my_worlds/worlds/lab_office_official.world
+-- Installing: /home/lab/amr_ws/install/lab_bot/lib/lab_bot/odom_receiver.py
+-- Installing: /home/lab/amr_ws/install/lab_bot/lib/lab_bot/cmd_vel_sender.py
+-- Installing: /home/lab/amr_ws/install/lab_bot/lib/lab_bot/scan_filter.py
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/ament_index/resource_index/package_run_dependencies/lab_bot
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/ament_index/resource_index/parent_prefix_path/lab_bot
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/environment/ament_prefix_path.sh
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/environment/ament_prefix_path.dsv
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/environment/path.sh
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/environment/path.dsv
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/local_setup.bash
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/local_setup.sh
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/local_setup.zsh
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/local_setup.dsv
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/package.dsv
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/ament_index/resource_index/packages/lab_bot
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/cmake/lab_botConfig.cmake
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/cmake/lab_botConfig-version.cmake
+-- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/package.xml

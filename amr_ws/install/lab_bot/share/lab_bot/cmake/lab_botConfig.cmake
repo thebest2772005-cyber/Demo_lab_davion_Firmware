@@ -1,0 +1,1 @@
+/home/lab/amr_ws/build/lab_bot/ament_cmake_core/lab_botConfig.cmake

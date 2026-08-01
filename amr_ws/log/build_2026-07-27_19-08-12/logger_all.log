@@ -1,0 +1,140 @@
+[0.772s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'lab_bot']
+[0.773s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['lab_bot'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff85802ad0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8594c280>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8594c280>>)
+[1.953s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.954s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.954s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.954s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.955s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.955s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.955s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lab/amr_ws'
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.957s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.957s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.957s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_bot) by extensions ['ignore', 'ignore_ament_install']
+[2.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_bot) by extension 'ignore'
+[2.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_bot) by extension 'ignore_ament_install'
+[2.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_bot) by extensions ['colcon_pkg']
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_bot) by extension 'colcon_pkg'
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_bot) by extensions ['colcon_meta']
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_bot) by extension 'colcon_meta'
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_bot) by extensions ['ros']
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_bot) by extension 'ros'
+[2.064s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lab_bot' with type 'ros.ament_cmake' and name 'lab_bot'
+[2.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.065s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.065s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.065s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.206s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/lab/giabao_ws/amr_ws/install
+[2.210s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/lab/install
+[2.213s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/lab/amr_ws/install
+[2.224s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 297 installed packages in /opt/ros/humble
+[2.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.478s] Level 5:colcon.colcon_core.verb:set package 'lab_bot' build argument 'cmake_args' from command line to 'None'
+[2.478s] Level 5:colcon.colcon_core.verb:set package 'lab_bot' build argument 'cmake_target' from command line to 'None'
+[2.479s] Level 5:colcon.colcon_core.verb:set package 'lab_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.479s] Level 5:colcon.colcon_core.verb:set package 'lab_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[2.479s] Level 5:colcon.colcon_core.verb:set package 'lab_bot' build argument 'cmake_clean_first' from command line to 'False'
+[2.479s] Level 5:colcon.colcon_core.verb:set package 'lab_bot' build argument 'cmake_force_configure' from command line to 'False'
+[2.479s] Level 5:colcon.colcon_core.verb:set package 'lab_bot' build argument 'ament_cmake_args' from command line to 'None'
+[2.479s] Level 5:colcon.colcon_core.verb:set package 'lab_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[2.479s] Level 5:colcon.colcon_core.verb:set package 'lab_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.480s] DEBUG:colcon.colcon_core.verb:Building package 'lab_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lab/amr_ws/build/lab_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lab/amr_ws/install/lab_bot', 'merge_install': False, 'path': '/home/lab/amr_ws/src/lab_bot', 'symlink_install': False, 'test_result_base': None}
+[2.480s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.484s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.485s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lab/amr_ws/src/lab_bot' with build type 'ament_cmake'
+[2.486s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lab/amr_ws/src/lab_bot'
+[2.508s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.510s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.510s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lab/amr_ws/build/lab_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lab/amr_ws/build/lab_bot -- -j4 -l4
+[2.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lab/amr_ws/build/lab_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lab/amr_ws/build/lab_bot -- -j4 -l4
+[3.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lab/amr_ws/build/lab_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lab/amr_ws/build/lab_bot
+[3.268s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab_bot)
+[3.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lab/amr_ws/build/lab_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lab/amr_ws/build/lab_bot
+[3.298s] Level 1:colcon.colcon_core.environment:checking '/home/lab/amr_ws/install/lab_bot' for CMake module files
+[3.302s] Level 1:colcon.colcon_core.environment:checking '/home/lab/amr_ws/install/lab_bot' for CMake config files
+[3.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab_bot', 'cmake_prefix_path')
+[3.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lab/amr_ws/install/lab_bot/share/lab_bot/hook/cmake_prefix_path.ps1'
+[3.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lab/amr_ws/install/lab_bot/share/lab_bot/hook/cmake_prefix_path.dsv'
+[3.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lab/amr_ws/install/lab_bot/share/lab_bot/hook/cmake_prefix_path.sh'
+[3.327s] Level 1:colcon.colcon_core.environment:checking '/home/lab/amr_ws/install/lab_bot/lib'
+[3.328s] Level 1:colcon.colcon_core.environment:checking '/home/lab/amr_ws/install/lab_bot/bin'
+[3.329s] Level 1:colcon.colcon_core.environment:checking '/home/lab/amr_ws/install/lab_bot/lib/pkgconfig/lab_bot.pc'
+[3.330s] Level 1:colcon.colcon_core.environment:checking '/home/lab/amr_ws/install/lab_bot/lib/python3.10/site-packages'
+[3.332s] Level 1:colcon.colcon_core.environment:checking '/home/lab/amr_ws/install/lab_bot/bin'
+[3.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/lab/amr_ws/install/lab_bot/share/lab_bot/package.ps1'
+[3.339s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lab/amr_ws/install/lab_bot/share/lab_bot/package.dsv'
+[3.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/lab/amr_ws/install/lab_bot/share/lab_bot/package.sh'
+[3.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/lab/amr_ws/install/lab_bot/share/lab_bot/package.bash'
+[3.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/lab/amr_ws/install/lab_bot/share/lab_bot/package.zsh'
+[3.356s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lab/amr_ws/install/lab_bot/share/colcon-core/packages/lab_bot)
+[3.359s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab_bot)
+[3.360s] Level 1:colcon.colcon_core.environment:checking '/home/lab/amr_ws/install/lab_bot' for CMake module files
+[3.364s] Level 1:colcon.colcon_core.environment:checking '/home/lab/amr_ws/install/lab_bot' for CMake config files
+[3.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab_bot', 'cmake_prefix_path')
+[3.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lab/amr_ws/install/lab_bot/share/lab_bot/hook/cmake_prefix_path.ps1'
+[3.373s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lab/amr_ws/install/lab_bot/share/lab_bot/hook/cmake_prefix_path.dsv'
+[3.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lab/amr_ws/install/lab_bot/share/lab_bot/hook/cmake_prefix_path.sh'
+[3.378s] Level 1:colcon.colcon_core.environment:checking '/home/lab/amr_ws/install/lab_bot/lib'
+[3.378s] Level 1:colcon.colcon_core.environment:checking '/home/lab/amr_ws/install/lab_bot/bin'
+[3.378s] Level 1:colcon.colcon_core.environment:checking '/home/lab/amr_ws/install/lab_bot/lib/pkgconfig/lab_bot.pc'
+[3.379s] Level 1:colcon.colcon_core.environment:checking '/home/lab/amr_ws/install/lab_bot/lib/python3.10/site-packages'
+[3.381s] Level 1:colcon.colcon_core.environment:checking '/home/lab/amr_ws/install/lab_bot/bin'
+[3.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/lab/amr_ws/install/lab_bot/share/lab_bot/package.ps1'
+[3.385s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lab/amr_ws/install/lab_bot/share/lab_bot/package.dsv'
+[3.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/lab/amr_ws/install/lab_bot/share/lab_bot/package.sh'
+[3.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/lab/amr_ws/install/lab_bot/share/lab_bot/package.bash'
+[3.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/lab/amr_ws/install/lab_bot/share/lab_bot/package.zsh'
+[3.396s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lab/amr_ws/install/lab_bot/share/colcon-core/packages/lab_bot)
+[3.397s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.398s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.399s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.400s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.402s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.403s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lab/amr_ws/install/local_setup.ps1'
+[3.408s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lab/amr_ws/install/_local_setup_util_ps1.py'
+[3.416s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lab/amr_ws/install/setup.ps1'
+[3.423s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lab/amr_ws/install/local_setup.sh'
+[3.429s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lab/amr_ws/install/_local_setup_util_sh.py'
+[3.432s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lab/amr_ws/install/setup.sh'
+[3.440s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lab/amr_ws/install/local_setup.bash'
+[3.444s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lab/amr_ws/install/setup.bash'
+[3.451s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lab/amr_ws/install/local_setup.zsh'
+[3.455s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lab/amr_ws/install/setup.zsh'

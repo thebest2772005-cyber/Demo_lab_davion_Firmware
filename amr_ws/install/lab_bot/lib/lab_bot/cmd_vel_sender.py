@@ -1,0 +1,1 @@
+/home/lab/amr_ws/src/lab_bot/scripts/cmd_vel_sender.py

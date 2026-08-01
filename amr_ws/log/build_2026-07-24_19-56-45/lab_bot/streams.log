@@ -1,0 +1,65 @@
+[0.063s] Invoking command in '/home/lab/amr_ws/build/lab_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lab/amr_ws/build/lab_bot -- -j4 -l4
+[0.152s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.017s] -- Configuring done
+[1.036s] -- Generating done
+[1.047s] -- Build files have been written to: /home/lab/amr_ws/build/lab_bot
+[1.130s] Invoked command in '/home/lab/amr_ws/build/lab_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lab/amr_ws/build/lab_bot -- -j4 -l4
+[1.173s] Invoking command in '/home/lab/amr_ws/build/lab_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lab/amr_ws/build/lab_bot
+[1.206s] -- Install configuration: ""
+[1.206s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch
+[1.207s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/cmd_vel_sender.launch.py
+[1.207s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/odom_publisher.py
+[1.208s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/nav_rl.launch.py
+[1.209s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/slam_rl.launch.py
+[1.209s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/slam.launch.py
+[1.210s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/Lidar.launch.py
+[1.210s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/bringup.launch.py
+[1.211s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/mapping.launch.py
+[1.211s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/odom_receive.py
+[1.211s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config
+[1.211s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/slam_localization_params.yaml
+[1.212s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/slam_rl_params.yaml
+[1.212s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/rplidar.yaml
+[1.212s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/slam_params_rl.yaml
+[1.213s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/slam_toolbox.yaml
+[1.213s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/nav_rl_params.yaml
+[1.214s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/lab_params.yaml
+[1.214s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/maps
+[1.215s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/maps/NewLidar_edited.yaml
+[1.215s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/maps/NewLidar_edited.pgm
+[1.215s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf
+[1.216s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/base.urdf.xacro
+[1.216s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/materials.urdf.xacro
+[1.217s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/lab_robot.urdf.xacro
+[1.223s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/gazebo.urdf.xacro
+[1.224s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/lab_bot.urdf.xacro
+[1.224s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/wheels.urdf.xacro
+[1.225s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/macros.urdf.xacro
+[1.226s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/properties.urdf.xacro
+[1.226s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/sensors.urdf.xacro
+[1.227s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/my_worlds
+[1.227s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/my_worlds/models
+[1.228s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/my_worlds/worlds
+[1.228s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/my_worlds/worlds/lab_office.world
+[1.229s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/my_worlds/worlds/lab_office_official.world
+[1.230s] -- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/rviz
+[1.233s] -- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/rviz/robot.rviz
+[1.242s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/lib/lab_bot/odom_receiver.py
+[1.243s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/lib/lab_bot/cmd_vel_sender.py
+[1.244s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/lib/lab_bot/scan_filter.py
+[1.244s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/ament_index/resource_index/package_run_dependencies/lab_bot
+[1.245s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/ament_index/resource_index/parent_prefix_path/lab_bot
+[1.246s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/environment/ament_prefix_path.sh
+[1.246s] -- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/environment/ament_prefix_path.dsv
+[1.247s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/environment/path.sh
+[1.247s] -- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/environment/path.dsv
+[1.248s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/local_setup.bash
+[1.249s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/local_setup.sh
+[1.250s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/local_setup.zsh
+[1.250s] -- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/local_setup.dsv
+[1.253s] -- Installing: /home/lab/amr_ws/install/lab_bot/share/lab_bot/package.dsv
+[1.255s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/ament_index/resource_index/packages/lab_bot
+[1.256s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/cmake/lab_botConfig.cmake
+[1.256s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/cmake/lab_botConfig-version.cmake
+[1.257s] -- Up-to-date: /home/lab/amr_ws/install/lab_bot/share/lab_bot/package.xml
+[1.258s] Invoked command in '/home/lab/amr_ws/build/lab_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lab/amr_ws/build/lab_bot

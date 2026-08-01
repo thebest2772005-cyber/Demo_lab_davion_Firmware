@@ -1,0 +1,84 @@
+[0.000000] (-) TimerEvent: {}
+[0.002028] (lab_bot) JobQueued: {'identifier': 'lab_bot', 'dependencies': OrderedDict()}
+[0.002262] (lab_bot) JobStarted: {'identifier': 'lab_bot'}
+[0.046923] (lab_bot) JobProgress: {'identifier': 'lab_bot', 'progress': 'cmake'}
+[0.049674] (lab_bot) JobProgress: {'identifier': 'lab_bot', 'progress': 'build'}
+[0.052417] (lab_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lab/amr_ws/build/lab_bot', '--', '-j4', '-l4'], 'cwd': '/home/lab/amr_ws/build/lab_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lab'), ('SSH_CLIENT', '192.168.2.201 52414 22'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lab'), ('OLDPWD', '/home/lab'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'vi_VN'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/lab/install:/home/lab/giabao_ws/amr_ws/install:/home/lab/amr_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '16'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'vi_VN'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/lab/giabao_ws/amr_ws/install/sllidar_ros2:/home/lab/giabao_ws/amr_ws/install/amr_robot:/home/lab/amr_ws/install/lab_bot:/home/lab/install/lab_bot:/home/lab/install/amr_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('PWD', '/home/lab/amr_ws/build/lab_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.201 52414 192.168.2.168 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lab/giabao_ws/amr_ws/install/sllidar_ros2:/home/lab/giabao_ws/amr_ws/install/amr_robot:/home/lab/amr_ws/install/lab_bot:/home/lab/install/lab_bot:/home/lab/install/amr_robot:/opt/ros/humble')]), 'shell': False}
+[0.099210] (-) TimerEvent: {}
+[0.150028] (lab_bot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199372] (-) TimerEvent: {}
+[0.300143] (-) TimerEvent: {}
+[0.400899] (-) TimerEvent: {}
+[0.501708] (-) TimerEvent: {}
+[0.602465] (-) TimerEvent: {}
+[0.659834] (lab_bot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.702699] (-) TimerEvent: {}
+[0.803966] (-) TimerEvent: {}
+[0.904879] (-) TimerEvent: {}
+[0.982658] (lab_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.000012] (lab_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[1.005148] (-) TimerEvent: {}
+[1.009965] (lab_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/lab/amr_ws/build/lab_bot\n'}
+[1.087935] (lab_bot) CommandEnded: {'returncode': 0}
+[1.090206] (lab_bot) JobProgress: {'identifier': 'lab_bot', 'progress': 'install'}
+[1.105366] (-) TimerEvent: {}
+[1.123296] (lab_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lab/amr_ws/build/lab_bot'], 'cwd': '/home/lab/amr_ws/build/lab_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lab'), ('SSH_CLIENT', '192.168.2.201 52414 22'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lab'), ('OLDPWD', '/home/lab'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'vi_VN'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/lab/install:/home/lab/giabao_ws/amr_ws/install:/home/lab/amr_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '16'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'vi_VN'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/lab/giabao_ws/amr_ws/install/sllidar_ros2:/home/lab/giabao_ws/amr_ws/install/amr_robot:/home/lab/amr_ws/install/lab_bot:/home/lab/install/lab_bot:/home/lab/install/amr_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('PWD', '/home/lab/amr_ws/build/lab_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.201 52414 192.168.2.168 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lab/giabao_ws/amr_ws/install/sllidar_ros2:/home/lab/giabao_ws/amr_ws/install/amr_robot:/home/lab/amr_ws/install/lab_bot:/home/lab/install/lab_bot:/home/lab/install/amr_robot:/opt/ros/humble')]), 'shell': False}
+[1.157308] (lab_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.158964] (lab_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.161329] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/Lidar.launch.py\n'}
+[1.162301] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/bringup.launch.py\n'}
+[1.163268] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/cmd_vel_sender.launch.py\n'}
+[1.164412] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/mapping.launch.py\n'}
+[1.165129] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/nav_rl.launch.py\n'}
+[1.165712] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/odom_publisher.py\n'}
+[1.166392] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/odom_receive.py\n'}
+[1.166994] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/slam.launch.py\n'}
+[1.167685] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/slam_rl.launch.py\n'}
+[1.169362] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/lab_params.yaml\n'}
+[1.169958] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/nav_rl_params.yaml\n'}
+[1.170641] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/rplidar.yaml\n'}
+[1.171319] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/slam_localization_params.yaml\n'}
+[1.171991] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/slam_params_rl.yaml\n'}
+[1.172709] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/slam_rl_params.yaml\n'}
+[1.173716] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/slam_toolbox.yaml\n'}
+[1.175302] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/maps/lab_map.data\n'}
+[1.175971] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/maps/lab_map.pgm\n'}
+[1.176713] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/maps/lab_map.posegraph\n'}
+[1.177372] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/maps/lab_map.yaml\n'}
+[1.178037] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/maps/lab_office_map.data\n'}
+[1.178704] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/maps/lab_office_map.posegraph\n'}
+[1.179366] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/maps/lab_office_map.yaml\n'}
+[1.181115] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/base.urdf.xacro\n'}
+[1.181925] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/gazebo.urdf.xacro\n'}
+[1.182744] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/lab_bot.urdf.xacro\n'}
+[1.183515] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/lab_robot.urdf.xacro\n'}
+[1.184346] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/macros.urdf.xacro\n'}
+[1.185562] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/materials.urdf.xacro\n'}
+[1.186421] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/properties.urdf.xacro\n'}
+[1.187064] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/sensors.urdf.xacro\n'}
+[1.187673] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/wheels.urdf.xacro\n'}
+[1.189186] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/my_worlds/worlds/lab_office.world\n'}
+[1.189916] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/my_worlds/worlds/lab_office_official.world\n'}
+[1.190818] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/lib/lab_bot/odom_receiver.py\n'}
+[1.191466] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/lib/lab_bot/cmd_vel_sender.py\n'}
+[1.192047] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/lib/lab_bot/scan_filter.py\n'}
+[1.205543] (-) TimerEvent: {}
+[1.226225] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/ament_index/resource_index/package_run_dependencies/lab_bot\n'}
+[1.227243] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/ament_index/resource_index/parent_prefix_path/lab_bot\n'}
+[1.228225] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/environment/ament_prefix_path.sh\n'}
+[1.229184] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/environment/ament_prefix_path.dsv\n'}
+[1.230161] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/environment/path.sh\n'}
+[1.231042] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/environment/path.dsv\n'}
+[1.231908] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/local_setup.bash\n'}
+[1.232753] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/local_setup.sh\n'}
+[1.233628] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/local_setup.zsh\n'}
+[1.234504] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/local_setup.dsv\n'}
+[1.235191] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/package.dsv\n'}
+[1.268261] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/ament_index/resource_index/packages/lab_bot\n'}
+[1.269148] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/cmake/lab_botConfig.cmake\n'}
+[1.269907] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/cmake/lab_botConfig-version.cmake\n'}
+[1.270738] (lab_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lab/amr_ws/install/lab_bot/share/lab_bot/package.xml\n'}
+[1.276532] (lab_bot) CommandEnded: {'returncode': 0}
+[1.305725] (-) TimerEvent: {}
+[1.371842] (lab_bot) JobEnded: {'identifier': 'lab_bot', 'rc': 0}
+[1.374771] (-) EventReactorShutdown: {}

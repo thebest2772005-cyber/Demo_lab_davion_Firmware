@@ -1,0 +1,49 @@
+FollowPath:
+      plugin: "dwb_core::DWBLocalPlanner"
+      debug_trajectory_details: true
+      
+      # --- 1. TĂNG TỐC ĐỘ LÊN MỨC HỢP LÝ (Tốc độ bò an toàn: 0.15 m/s) ---
+      min_vel_x: 0.00
+      min_vel_y: 0.0
+      max_vel_x: 0.15              # SỬA: Tăng từ 0.04 lên 0.15 m/s
+      max_vel_y: 0.0
+      max_vel_theta: 0.60         # SỬA: Tăng từ 0.11 lên 0.60 rad/s để xoay mượt
+      min_speed_xy: 0.0
+      max_speed_xy: 0.15          # SỬA: Đẩy lên bằng max_vel_x
+      min_speed_theta: 0.08       # SỬA: Tăng lên chút để vượt ma sát nghỉ bánh xe
+      
+      # --- 2. TĂNG GIA TỐC GÓC ĐỂ BÁNH XE KHÔNG BỊ GIẬT ---
+      acc_lim_x: 0.8              # SỬA: 0.8 m/s^2 giúp tăng tốc êm
+      acc_lim_y: 0.0
+      acc_lim_theta: 1.2          # SỬA: Tăng từ 0.1 lên 1.2 rad/s^2 để đủ lực xoay
+      decel_lim_x: -0.8
+      decel_lim_y: 0.0
+      decel_lim_theta: -1.2
+      
+      # --- 3. TĂNG MẪU THỬ DWB ĐỂ TÍNH QUỸ ĐẠO MƯỢT HƠN ---
+      vx_samples: 20              # SỬA: Tăng từ 8 lên 20
+      vy_samples: 0
+      vtheta_samples: 20          # SỬA: Đặt 20 là chuẩn
+      sim_time: 1.5
+      linear_granularity: 0.05
+      angular_granularity: 0.025
+      transform_tolerance: 0.2
+      xy_goal_tolerance: 0.10      # SỬA: Nâng lên 0.10m (10cm) cho dễ ăn Goal
+      trans_stopped_velocity: 0.01
+      short_circuit_trajectory_evaluation: true
+      stateful: true
+      
+      # --- 4. GIỮ NGUYÊN CRITICS CỦA BẠN (Đã rất OK) ---
+      critics: ["RotateToGoal", "Oscillation", "BaseObstacle", "GoalAlign", "PathAlign", "PathDist", "GoalDist"]
+      BaseObstacle.scale: 0.02
+      PathAlign.scale: 20.0
+      PathAlign.forward_point_distance: 0.3
+      GoalAlign.scale: 12.0
+      GoalAlign.forward_point_distance: 0.1
+      PathDist.scale: 32.0
+      GoalDist.scale: 24.0
+      RotateToGoal.scale: 3.0
+      RotateToGoal.slowing_factor: 1.0
+      RotateToGoal.lookahead_time: 1.0
+
+    enable_stamped_cmd_vel: true

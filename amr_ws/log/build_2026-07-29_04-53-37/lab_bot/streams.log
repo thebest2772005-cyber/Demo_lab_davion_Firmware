@@ -1,0 +1,80 @@
+[0.070s] Invoking command in '/home/lab/amr_ws/build/lab_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lab/amr_ws/src/lab_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lab/amr_ws/install/lab_bot
+[1.101s] -- The C compiler identification is GNU 11.4.0
+[1.898s] -- The CXX compiler identification is GNU 11.4.0
+[1.946s] -- Detecting C compiler ABI info
+[2.400s] -- Detecting C compiler ABI info - done
+[2.427s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.464s] -- Detecting C compile features
+[2.516s] -- Detecting C compile features - done
+[2.537s] -- Detecting CXX compiler ABI info
+[3.005s] -- Detecting CXX compiler ABI info - done
+[3.041s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.043s] -- Detecting CXX compile features
+[3.049s] -- Detecting CXX compile features - done
+[3.098s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.907s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.312s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.150s] -- Configuring done
+[5.178s] -- Generating done
+[5.192s] -- Build files have been written to: /home/lab/amr_ws/build/lab_bot
+[5.211s] Invoked command in '/home/lab/amr_ws/build/lab_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lab/amr_ws/src/lab_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lab/amr_ws/install/lab_bot
+[5.219s] Invoking command in '/home/lab/amr_ws/build/lab_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lab/amr_ws/build/lab_bot -- -j4 -l4
+[5.417s] Invoked command in '/home/lab/amr_ws/build/lab_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lab/amr_ws/build/lab_bot -- -j4 -l4
+[5.465s] Invoking command in '/home/lab/amr_ws/build/lab_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lab/amr_ws/build/lab_bot
+[5.510s] -- Install configuration: ""
+[5.512s] -- Execute custom install script
+[5.515s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/Lidar.launch.py
+[5.558s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/__pycache__/bringup.launch.cpython-310.pyc
+[5.598s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/__pycache__/nav_rl.launch.cpython-310.pyc
+[5.638s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/__pycache__/odom_publisher.cpython-310.pyc
+[5.682s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/bringup.launch.py
+[5.716s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/cmd_vel_sender.launch.py
+[5.756s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/mapping.launch.py
+[5.810s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/nav_rl.launch.py
+[5.844s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/odom_publisher.py
+[5.885s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/odom_receive.py
+[5.927s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/slam.launch.py
+[5.971s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/slam_rl.launch.py
+[6.017s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/lab_params.yaml
+[6.054s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/lab_params_BK.yaml
+[6.095s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/lab_params_BK1.yaml
+[6.134s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/nav_rl_params.yaml
+[6.176s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/nav_rl_params_BK.yaml
+[6.211s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/rplidar.yaml
+[6.251s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/slam_localization_params.yaml
+[6.287s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/slam_params_rl.yaml
+[6.326s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/slam_rl_params.yaml
+[6.364s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/slam_toolbox.yaml
+[6.402s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/maps/NewLidar_edited.pgm
+[6.440s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/maps/NewLidar_edited.yaml
+[6.480s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/base.urdf.xacro
+[6.519s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/gazebo.urdf.xacro
+[6.573s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/lab_bot.urdf.xacro
+[6.616s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/lab_robot.urdf.xacro
+[6.661s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/macros.urdf.xacro
+[6.695s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/materials.urdf.xacro
+[6.734s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/properties.urdf.xacro
+[6.777s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/sensors.urdf.xacro
+[6.815s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/wheels.urdf.xacro
+[6.858s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/my_worlds/worlds/lab_office.world
+[6.896s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/my_worlds/worlds/lab_office_official.world
+[6.934s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/rviz/robot.rviz
+[6.978s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/lib/lab_bot/odom_receiver.py
+[7.019s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/lib/lab_bot/cmd_vel_sender.py
+[7.058s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/lib/lab_bot/scan_filter.py
+[7.100s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/ament_index/resource_index/package_run_dependencies/lab_bot
+[7.141s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/ament_index/resource_index/parent_prefix_path/lab_bot
+[7.180s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/environment/ament_prefix_path.sh
+[7.220s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/environment/ament_prefix_path.dsv
+[7.258s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/environment/path.sh
+[7.297s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/environment/path.dsv
+[7.347s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/local_setup.bash
+[7.387s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/local_setup.sh
+[7.429s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/local_setup.zsh
+[7.469s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/local_setup.dsv
+[7.508s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/package.dsv
+[7.551s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/ament_index/resource_index/packages/lab_bot
+[7.590s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/cmake/lab_botConfig.cmake
+[7.632s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/cmake/lab_botConfig-version.cmake
+[7.675s] -- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/package.xml
+[7.735s] Invoked command in '/home/lab/amr_ws/build/lab_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lab/amr_ws/build/lab_bot

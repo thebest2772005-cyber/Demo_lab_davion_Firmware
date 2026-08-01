@@ -1,0 +1,166 @@
+[0.000000] (-) TimerEvent: {}
+[0.001466] (lab_bot) JobQueued: {'identifier': 'lab_bot', 'dependencies': OrderedDict()}
+[0.001756] (lab_bot) JobStarted: {'identifier': 'lab_bot'}
+[0.057544] (lab_bot) JobProgress: {'identifier': 'lab_bot', 'progress': 'cmake'}
+[0.060117] (lab_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/lab/amr_ws/src/lab_bot', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/lab/amr_ws/install/lab_bot'], 'cwd': '/home/lab/amr_ws/build/lab_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lab'), ('SSH_CLIENT', '192.168.2.154 55740 22'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lab'), ('OLDPWD', '/home/lab'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'vi_VN'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/lab/giabao_ws/amr_ws/install:/home/lab/install:/home/lab/amr_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '114'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'vi_VN'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/lab/amr_ws/install/lab_bot:/home/lab/giabao_ws/amr_ws/install/sllidar_ros2:/home/lab/giabao_ws/amr_ws/install/amr_robot:/home/lab/install/lab_bot:/home/lab/install/amr_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('PWD', '/home/lab/amr_ws/build/lab_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.154 55740 192.168.2.168 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lab/amr_ws/install/lab_bot:/home/lab/giabao_ws/amr_ws/install/sllidar_ros2:/home/lab/giabao_ws/amr_ws/install/amr_robot:/home/lab/install/lab_bot:/home/lab/install/amr_robot:/opt/ros/humble')]), 'shell': False}
+[0.097187] (-) TimerEvent: {}
+[0.197968] (-) TimerEvent: {}
+[0.298789] (-) TimerEvent: {}
+[0.399573] (-) TimerEvent: {}
+[0.500474] (-) TimerEvent: {}
+[0.601319] (-) TimerEvent: {}
+[0.702184] (-) TimerEvent: {}
+[0.803104] (-) TimerEvent: {}
+[0.904166] (-) TimerEvent: {}
+[1.005277] (-) TimerEvent: {}
+[1.101544] (lab_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.105508] (-) TimerEvent: {}
+[1.206379] (-) TimerEvent: {}
+[1.307311] (-) TimerEvent: {}
+[1.408584] (-) TimerEvent: {}
+[1.509537] (-) TimerEvent: {}
+[1.610653] (-) TimerEvent: {}
+[1.711691] (-) TimerEvent: {}
+[1.812641] (-) TimerEvent: {}
+[1.898037] (lab_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.912831] (-) TimerEvent: {}
+[1.947201] (lab_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.013005] (-) TimerEvent: {}
+[2.113818] (-) TimerEvent: {}
+[2.214787] (-) TimerEvent: {}
+[2.315564] (-) TimerEvent: {}
+[2.401509] (lab_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.415779] (-) TimerEvent: {}
+[2.428545] (lab_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.465225] (lab_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.515978] (-) TimerEvent: {}
+[2.517411] (lab_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.538803] (lab_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.616143] (-) TimerEvent: {}
+[2.716924] (-) TimerEvent: {}
+[2.818063] (-) TimerEvent: {}
+[2.919034] (-) TimerEvent: {}
+[3.006078] (lab_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.019553] (-) TimerEvent: {}
+[3.041962] (lab_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.043768] (lab_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.049848] (lab_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.099677] (lab_bot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.121445] (-) TimerEvent: {}
+[3.222185] (-) TimerEvent: {}
+[3.323730] (-) TimerEvent: {}
+[3.424988] (-) TimerEvent: {}
+[3.525868] (-) TimerEvent: {}
+[3.627744] (-) TimerEvent: {}
+[3.728548] (-) TimerEvent: {}
+[3.829751] (-) TimerEvent: {}
+[3.907896] (lab_bot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.930001] (-) TimerEvent: {}
+[4.031143] (-) TimerEvent: {}
+[4.131936] (-) TimerEvent: {}
+[4.232715] (-) TimerEvent: {}
+[4.313870] (lab_bot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.332956] (-) TimerEvent: {}
+[4.433919] (-) TimerEvent: {}
+[4.534680] (-) TimerEvent: {}
+[4.635460] (-) TimerEvent: {}
+[4.736168] (-) TimerEvent: {}
+[4.836890] (-) TimerEvent: {}
+[4.937829] (-) TimerEvent: {}
+[5.038691] (-) TimerEvent: {}
+[5.139600] (-) TimerEvent: {}
+[5.150655] (lab_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.178919] (lab_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[5.192327] (lab_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/lab/amr_ws/build/lab_bot\n'}
+[5.212188] (lab_bot) CommandEnded: {'returncode': 0}
+[5.219881] (lab_bot) JobProgress: {'identifier': 'lab_bot', 'progress': 'build'}
+[5.220144] (lab_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lab/amr_ws/build/lab_bot', '--', '-j4', '-l4'], 'cwd': '/home/lab/amr_ws/build/lab_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lab'), ('SSH_CLIENT', '192.168.2.154 55740 22'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lab'), ('OLDPWD', '/home/lab'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'vi_VN'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/lab/giabao_ws/amr_ws/install:/home/lab/install:/home/lab/amr_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '114'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'vi_VN'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/lab/amr_ws/install/lab_bot:/home/lab/giabao_ws/amr_ws/install/sllidar_ros2:/home/lab/giabao_ws/amr_ws/install/amr_robot:/home/lab/install/lab_bot:/home/lab/install/amr_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('PWD', '/home/lab/amr_ws/build/lab_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.154 55740 192.168.2.168 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lab/amr_ws/install/lab_bot:/home/lab/giabao_ws/amr_ws/install/sllidar_ros2:/home/lab/giabao_ws/amr_ws/install/amr_robot:/home/lab/install/lab_bot:/home/lab/install/amr_robot:/opt/ros/humble')]), 'shell': False}
+[5.239786] (-) TimerEvent: {}
+[5.340919] (-) TimerEvent: {}
+[5.417873] (lab_bot) CommandEnded: {'returncode': 0}
+[5.422001] (lab_bot) JobProgress: {'identifier': 'lab_bot', 'progress': 'install'}
+[5.442616] (-) TimerEvent: {}
+[5.465443] (lab_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lab/amr_ws/build/lab_bot'], 'cwd': '/home/lab/amr_ws/build/lab_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lab'), ('SSH_CLIENT', '192.168.2.154 55740 22'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lab'), ('OLDPWD', '/home/lab'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'vi_VN'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/lab/giabao_ws/amr_ws/install:/home/lab/install:/home/lab/amr_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '114'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'vi_VN'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/lab/amr_ws/install/lab_bot:/home/lab/giabao_ws/amr_ws/install/sllidar_ros2:/home/lab/giabao_ws/amr_ws/install/amr_robot:/home/lab/install/lab_bot:/home/lab/install/amr_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('PWD', '/home/lab/amr_ws/build/lab_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.154 55740 192.168.2.168 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lab/amr_ws/install/lab_bot:/home/lab/giabao_ws/amr_ws/install/sllidar_ros2:/home/lab/giabao_ws/amr_ws/install/amr_robot:/home/lab/install/lab_bot:/home/lab/install/amr_robot:/opt/ros/humble')]), 'shell': False}
+[5.510944] (lab_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.513029] (lab_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.516696] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/Lidar.launch.py\n'}
+[5.542807] (-) TimerEvent: {}
+[5.558984] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/__pycache__/bringup.launch.cpython-310.pyc\n'}
+[5.599120] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/__pycache__/nav_rl.launch.cpython-310.pyc\n'}
+[5.638963] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/__pycache__/odom_publisher.cpython-310.pyc\n'}
+[5.643002] (-) TimerEvent: {}
+[5.681314] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/bringup.launch.py\n'}
+[5.716950] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/cmd_vel_sender.launch.py\n'}
+[5.743206] (-) TimerEvent: {}
+[5.757715] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/mapping.launch.py\n'}
+[5.811178] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/nav_rl.launch.py\n'}
+[5.843773] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/odom_publisher.py\n'}
+[5.846749] (-) TimerEvent: {}
+[5.886429] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/odom_receive.py\n'}
+[5.928054] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/slam.launch.py\n'}
+[5.946976] (-) TimerEvent: {}
+[5.972614] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/launch/slam_rl.launch.py\n'}
+[6.017397] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/lab_params.yaml\n'}
+[6.047211] (-) TimerEvent: {}
+[6.055691] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/lab_params_BK.yaml\n'}
+[6.095790] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/lab_params_BK1.yaml\n'}
+[6.134410] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/nav_rl_params.yaml\n'}
+[6.147442] (-) TimerEvent: {}
+[6.177718] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/nav_rl_params_BK.yaml\n'}
+[6.212377] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/rplidar.yaml\n'}
+[6.247655] (-) TimerEvent: {}
+[6.252236] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/slam_localization_params.yaml\n'}
+[6.288098] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/slam_params_rl.yaml\n'}
+[6.326825] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/slam_rl_params.yaml\n'}
+[6.347875] (-) TimerEvent: {}
+[6.364805] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/config/slam_toolbox.yaml\n'}
+[6.403627] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/maps/NewLidar_edited.pgm\n'}
+[6.440868] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/maps/NewLidar_edited.yaml\n'}
+[6.448255] (-) TimerEvent: {}
+[6.481262] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/base.urdf.xacro\n'}
+[6.520391] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/gazebo.urdf.xacro\n'}
+[6.548524] (-) TimerEvent: {}
+[6.571899] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/lab_bot.urdf.xacro\n'}
+[6.617063] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/lab_robot.urdf.xacro\n'}
+[6.648667] (-) TimerEvent: {}
+[6.659886] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/macros.urdf.xacro\n'}
+[6.696011] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/materials.urdf.xacro\n'}
+[6.734023] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/properties.urdf.xacro\n'}
+[6.748885] (-) TimerEvent: {}
+[6.777885] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/sensors.urdf.xacro\n'}
+[6.815971] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/urdf/wheels.urdf.xacro\n'}
+[6.849215] (-) TimerEvent: {}
+[6.858331] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/my_worlds/worlds/lab_office.world\n'}
+[6.896767] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/my_worlds/worlds/lab_office_official.world\n'}
+[6.934944] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/rviz/robot.rviz\n'}
+[6.949626] (-) TimerEvent: {}
+[6.979293] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/lib/lab_bot/odom_receiver.py\n'}
+[7.020283] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/lib/lab_bot/cmd_vel_sender.py\n'}
+[7.049591] (-) TimerEvent: {}
+[7.059442] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/lib/lab_bot/scan_filter.py\n'}
+[7.101656] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/ament_index/resource_index/package_run_dependencies/lab_bot\n'}
+[7.141829] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/ament_index/resource_index/parent_prefix_path/lab_bot\n'}
+[7.149853] (-) TimerEvent: {}
+[7.181309] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/environment/ament_prefix_path.sh\n'}
+[7.221341] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/environment/ament_prefix_path.dsv\n'}
+[7.250050] (-) TimerEvent: {}
+[7.259016] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/environment/path.sh\n'}
+[7.298408] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/environment/path.dsv\n'}
+[7.348174] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/local_setup.bash\n'}
+[7.350248] (-) TimerEvent: {}
+[7.386909] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/local_setup.sh\n'}
+[7.430456] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/local_setup.zsh\n'}
+[7.450438] (-) TimerEvent: {}
+[7.470620] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/local_setup.dsv\n'}
+[7.509111] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/package.dsv\n'}
+[7.550704] (-) TimerEvent: {}
+[7.551751] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/ament_index/resource_index/packages/lab_bot\n'}
+[7.591582] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/cmake/lab_botConfig.cmake\n'}
+[7.631339] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/cmake/lab_botConfig-version.cmake\n'}
+[7.650889] (-) TimerEvent: {}
+[7.676309] (lab_bot) StdoutLine: {'line': b'-- Symlinking: /home/lab/amr_ws/install/lab_bot/share/lab_bot/package.xml\n'}
+[7.728293] (lab_bot) CommandEnded: {'returncode': 0}
+[7.751029] (-) TimerEvent: {}
+[7.851863] (-) TimerEvent: {}
+[7.855409] (lab_bot) JobEnded: {'identifier': 'lab_bot', 'rc': 0}
+[7.859510] (-) EventReactorShutdown: {}
